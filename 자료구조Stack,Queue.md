@@ -17,7 +17,7 @@ Stack에서는 다음 연산을 사용합니다.
 - `push` : 원소를 넣는 연산
 - `pop` : 가장 상위 원소(top)를 빼는 연산
 
-항상 가장 상위 원소를 호출하거나 삭메하므로 가장 먼저 들어온 것이 가장 나중에 나오는 선입후출 구조를 가지고 있습니다.
+항상 가장 상위 원소를 호출하거나 삭제하므로 가장 먼저 들어온 것이 가장 나중에 나오는 선입후출 구조를 가지고 있습니다.
 
 가장 마지막에 들어온 정보를 유지하는 연산은 다음과 같은 task에 활용할 수 있습니다.
 
@@ -45,9 +45,7 @@ Python에서는 Stack자료구조를 List를 사용하기에 `append` 와 `pop` 
 - 우선순위가 같은 작업(Print)
 - 메세지 큐(Mesage Queue)
 
-Python에서는 Queue자료구조는 Stack과 Queue를 합친 Deque를 사용합니다.
-
-collections라이브러리의 `deque`를 사용합니다.
+Python에서는 Queue자료구조는 Stack과 Queue를 합친 `collections`라이브러리의 `deque`를 사용합니다.
 
 - 가장 앞의 pop은 `popleft` 그리고 가장 오른쪽pop는 `pop`연산을 사용합니다.
 - 앞에서는 `appendleft`로 가장 오른쪽에서는 `append`로 원소를 추가할 수 있습니다.
